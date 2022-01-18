@@ -1,0 +1,23 @@
+.product {
+    flex: 1 0 calc(25% - 1rem);
+    border: 1px solid #555;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+}
+
+.title {
+    height: 3rem;
+}
+
+.price {
+    font-size: 1.5rem;
+}

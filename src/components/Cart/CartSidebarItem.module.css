@@ -1,0 +1,41 @@
+.inCartItems {
+  color: rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inCartItems h2 {
+  font-size: 1rem;
+}
+
+.itm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.itmLeft {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.itmRight {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+.qtyBtn {
+  width: 20%;
+  right: 0;
+  margin-left: 0.3rem;
+}

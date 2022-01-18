@@ -1,0 +1,70 @@
+.sideBar {
+  background-color: white;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  right: 0;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding-bottom: 2rem;
+  animation: sidebaranim 0.2s both;
+}
+
+@keyframes sidebaranim {
+  0% {
+    transform: translateX(calc(100vw - 100%));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .sideBar {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sideBar {
+    width: 80%;
+  }
+}
+
+.sideBarBtn {
+  width: 50%;
+  align-self: center;
+}
+
+.total {
+  color: black;
+  margin: 0 0 0.5rem 1.5rem;
+}
+
+.header {
+  height: 5rem;
+  background-color: rgb(115, 65, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.backdrop {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  opacity: 0.4;
+}
+
+.loadanim {
+  text-align: center;
+}

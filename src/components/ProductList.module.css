@@ -1,0 +1,35 @@
+.prodlist {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 200px;
+}
+
+@media screen {
+  
+}
+
+.title {
+  height: 3rem;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.toCart {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  opacity: 0.3;
+  filter: alpha(opacity = 0.3);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.3);
+}
