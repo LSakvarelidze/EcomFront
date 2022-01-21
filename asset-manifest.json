@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/EcomFront/static/css/main.baa677f0.chunk.css",
-    "main.js": "/EcomFront/static/js/main.ec15a416.chunk.js",
-    "main.js.map": "/EcomFront/static/js/main.ec15a416.chunk.js.map",
-    "runtime-main.js": "/EcomFront/static/js/runtime-main.11397106.js",
-    "runtime-main.js.map": "/EcomFront/static/js/runtime-main.11397106.js.map",
-    "static/js/2.886a319e.chunk.js": "/EcomFront/static/js/2.886a319e.chunk.js",
-    "static/js/2.886a319e.chunk.js.map": "/EcomFront/static/js/2.886a319e.chunk.js.map",
-    "index.html": "/EcomFront/index.html",
-    "static/css/main.baa677f0.chunk.css.map": "/EcomFront/static/css/main.baa677f0.chunk.css.map",
-    "static/js/2.886a319e.chunk.js.LICENSE.txt": "/EcomFront/static/js/2.886a319e.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.baa677f0.chunk.css",
+    "main.js": "/static/js/main.ec15a416.chunk.js",
+    "main.js.map": "/static/js/main.ec15a416.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.776c1e0d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.776c1e0d.js.map",
+    "static/js/2.886a319e.chunk.js": "/static/js/2.886a319e.chunk.js",
+    "static/js/2.886a319e.chunk.js.map": "/static/js/2.886a319e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.baa677f0.chunk.css.map": "/static/css/main.baa677f0.chunk.css.map",
+    "static/js/2.886a319e.chunk.js.LICENSE.txt": "/static/js/2.886a319e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11397106.js",
+    "static/js/runtime-main.776c1e0d.js",
     "static/js/2.886a319e.chunk.js",
     "static/css/main.baa677f0.chunk.css",
     "static/js/main.ec15a416.chunk.js"
