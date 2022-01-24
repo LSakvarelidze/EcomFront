@@ -1,10 +1,8 @@
-import react, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styles from "./Header.module.css";
 import Cart from "./Cart/Cart";
 import { FiLogIn } from "react-icons/fi";
-
-import { Link } from "react-router-dom";
 
 const Header = (props) => {
   const [searchRes, setSearchRes] = useState(null);
@@ -15,7 +13,11 @@ const Header = (props) => {
     } else {
       fetch("https://82.211.130.15/api/v1/products/search/" + e.target.value)
         .then((response) => response.json())
-        .then((data) => data.length > 0 ? setSearchRes(data) : setSearchRes([{title: "Nothing found"}]))
+        .then((data) =>
+          data.length > 0
+            ? setSearchRes(data)
+            : setSearchRes([{ title: "Nothing found" }])
+        )
         .catch((err) => console.log(err));
     }
   };
@@ -23,7 +25,9 @@ const Header = (props) => {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.logo}><Link to={"/"}>🏪</Link></div>
+        <div className={styles.logo}>
+          <a href="/">🏪</a>
+        </div>
         <div className={styles.menu}>
           <ul className={styles.menuC}></ul>
         </div>
@@ -47,10 +51,12 @@ const Header = (props) => {
           </div>
         </div>
         <div className={styles.auth}>
-          <button className={styles.authBtn}>
-            <FiLogIn />
-            &nbsp;Login / Register
-          </button>
+          <a href="/#/login">
+            <button className={styles.authBtn}>
+              <FiLogIn />
+              &nbsp;Login / Register
+            </button>
+          </a>
         </div>
       </div>
     </>

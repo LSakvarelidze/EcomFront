@@ -50,8 +50,7 @@ const CartSidebar = (props) => {
     if(action === "+") {
       getQtyData[id].qty += 1
       localStorage.setItem("cartData", JSON.stringify(getQtyData))
-    } 
-    if(action === "-") {
+    } else if(action === "-") {
       if(getQtyData[id].qty == 1) {
         getQtyData.splice(id, 1)
         localStorage.setItem("cartData", JSON.stringify(getQtyData))
@@ -59,6 +58,8 @@ const CartSidebar = (props) => {
         getQtyData[id].qty -= 1
         localStorage.setItem("cartData", JSON.stringify(getQtyData))
       }
+    } else {
+      throw new Error("Unauthorized action!")
     }
     setQtyChange(Math.random())
   }

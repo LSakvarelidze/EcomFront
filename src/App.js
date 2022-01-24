@@ -1,11 +1,11 @@
-import react, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./Reset.css";
 import ProductList from "./components/ProductList";
-
 import Login from "./components/Auth/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 const originalSetItem = localStorage.setItem;
 
@@ -30,19 +30,21 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <React.Fragment>
       <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            product === null ? "No products" : <ProductList data={product} />
-          }
-        />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              product === null ? "No products" : <ProductList data={product} />
+            }
+          />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </HashRouter>
       <Footer />
-    </BrowserRouter>
+    </React.Fragment>
   );
 }
 

@@ -27,8 +27,8 @@ const ProductList = (props) => {
         {
           position: "fixed",
           top: "-5rem",
-          left: cartLoc.getBoundingClientRect().left - 40 + "px",
-          opacity: "0",
+          left: cartLoc.getBoundingClientRect().left - 120 + "px",
+          opacity: "0.1",
           transform: "scale(0)",
         },
       ],
@@ -37,7 +37,8 @@ const ProductList = (props) => {
         iterations: 1,
       }
     );
-
+    
+    console.log(cartLoc.getBoundingClientRect().left)
     setTimeout(() => {
       pProdList.removeChild(pDiv);
     }, 1000);

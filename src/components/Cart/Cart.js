@@ -22,25 +22,24 @@ const Cart = (props) => {
         forStatetotal += item.qty;
       });
     setCartCount(forStatetotal)
-  }, []);
+  }, [cartCount]);
 
   useEffect(() => {
-    let total = 1;
     console.log(cartCount + " Under total");
     const localStorageSetHandler = function (e) {
+      let total = 1;
       let countTotal = JSON.parse(localStorage.getItem("cartData"));
       if (countTotal !== null) {
         countTotal.forEach((itm) => {
           total += itm.qty;
         });
       }
-      console.log(cartCount + " Above set");
       setCartCount(total);
       console.log(cartCount + " Below set");
     };
 
     document.addEventListener("itemInserted", localStorageSetHandler, false);
-  }, [cartCount]);
+  }, []);
 
   // Chekout Setting defined below
 
