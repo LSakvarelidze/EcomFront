@@ -1,0 +1,37 @@
+.loginWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.loginWindow input {
+    min-width: 500px;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.loginWindow label {
+    width: 300px;
+    margin: 0 0 0 0.2rem;
+    align-self: baseline; 
+}
+
+.loginWindow button {
+    margin: 0.2rem;
+    align-self: baseline;
+}
+
+.notify {
+    border: 1px solid rgb(177, 55, 55);
+    background-color: rgb(255, 50, 50);
+    color: white;
+    border-radius: 24px;
+    width: 500px;
+    padding: 1rem;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
