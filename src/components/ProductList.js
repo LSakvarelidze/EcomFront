@@ -19,17 +19,21 @@ const ProductList = (props) => {
       [
         {
           position: "fixed",
-          top: pDiv.getBoundingClientRect().top + "px",
-          left: pDiv.getBoundingClientRect().left + "px",
+          top: pDiv.getBoundingClientRect().y + "px",
+          left: pDiv.getBoundingClientRect().x + "px",
           opacity: "1",
           transform: "scale(1)",
+          width: cartLoc.getBoundingClientRect().width + "px",
+          height: cartLoc.getBoundingClientRect().width + "px" 
         },
         {
           position: "fixed",
-          top: "-5rem",
-          left: cartLoc.getBoundingClientRect().left - 120 + "px",
+          top: cartLoc.getBoundingClientRect().y + "px",
+          left: cartLoc.getBoundingClientRect().x + "px",
           opacity: "0.1",
           transform: "scale(0)",
+          width: cartLoc.getBoundingClientRect().width + "px",
+          height: cartLoc.getBoundingClientRect().width + "px" 
         },
       ],
       {
@@ -37,8 +41,7 @@ const ProductList = (props) => {
         iterations: 1,
       }
     );
-    
-    console.log(cartLoc.getBoundingClientRect().left)
+
     setTimeout(() => {
       pProdList.removeChild(pDiv);
     }, 1000);

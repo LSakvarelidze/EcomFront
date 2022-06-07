@@ -11,7 +11,7 @@ const Header = (props) => {
     if (e.target.value == "" || e.target.value == null) {
       setSearchRes(null);
     } else {
-      fetch("https://82.211.130.15/api/v1/products/search/" + e.target.value)
+      fetch("https://52.59.5.211:8443/api/v1/products/search/" + e.target.value)
         .then((response) => response.json())
         .then((data) =>
           data.length > 0

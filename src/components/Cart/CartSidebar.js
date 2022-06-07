@@ -38,7 +38,7 @@ const CartSidebar = (props) => {
       return response.json(); // parses JSON response into native JavaScript objects
     }
 
-    postData("https://82.211.130.15/api/v1/payments/checkout", {
+    postData("https://52.59.5.211:8443/api/v1/payments/checkout", {
       amount: totalAmt,
     }).then((data) => {
       props.checkOut(data.data.links[1].uri); // JSON data parsed by `data.json()` call

@@ -35,3 +35,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.authbtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,136 @@
+[2022-03-28 11:34:43Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.runner'
+[2022-03-28 11:34:43Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2022-03-28 11:34:43Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22000.
+[2022-03-28 11:34:43Z INFO Listener] Version: 2.288.1
+[2022-03-28 11:34:43Z INFO Listener] Commit: e95a2b840b74568ec30c993462165ece91040f8e
+[2022-03-28 11:34:43Z INFO Listener] Culture: en-US
+[2022-03-28 11:34:43Z INFO Listener] UI Culture: en-US
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO Listener] Validating directory permissions for: 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO CommandLineParser] Parse
+[2022-03-28 11:34:43Z INFO CommandLineParser] Parsing 1 args
+[2022-03-28 11:34:43Z INFO CommandLineParser] parsing argument
+[2022-03-28 11:34:43Z INFO CommandLineParser] HasArgs: False
+[2022-03-28 11:34:43Z INFO CommandLineParser] Adding Command: run
+[2022-03-28 11:34:43Z INFO Listener] Arguments parsed
+[2022-03-28 11:34:43Z INFO Runner] ExecuteCommand
+[2022-03-28 11:34:43Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin\Runner.Listener.dll
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] binPath: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] RootFolder: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'Runner': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.runner'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] ConfigFilePath: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.runner
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] CredFilePath: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_migrated'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_migrated
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'Service': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.service'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.service
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'help': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'version': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'check': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Command 'configure': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Command 'remove': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-03-28 11:34:43Z INFO ConfigurationManager] LoadSettings
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 11:34:43Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 11:34:43Z INFO ConfigurationStore] Read setting file: 294 chars
+[2022-03-28 11:34:43Z INFO ConfigurationManager] Settings Loaded
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-03-28 11:34:43Z INFO CommandSettings] Command 'run': 'True'
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 11:34:43Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 11:34:43Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-03-28 11:34:43Z INFO Runner] Set runner startup type - Manual
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-28 11:34:43Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-28 11:34:43Z INFO Runner] RunAsync
+[2022-03-28 11:34:43Z INFO ConfigurationManager] LoadSettings
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured()
+[2022-03-28 11:34:43Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-28 11:34:43Z INFO ConfigurationManager] Is configured: True
+[2022-03-28 11:34:43Z INFO ConfigurationManager] Settings Loaded
+[2022-03-28 11:34:43Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "LEVAN",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/nSXgpht6ydAqeLALLo8lrFLb9QWWyma13byqnZFe8o9ksYjFIA",
+  "GitHubUrl": "https://github.com/LSakvarelidze/EcomFront",
+  "WorkFolder": "_work"
+}
+[2022-03-28 11:34:43Z INFO MessageListener] Loading Credentials
+[2022-03-28 11:34:43Z INFO ConfigurationStore] HasCredentials()
+[2022-03-28 11:34:43Z INFO ConfigurationStore] stored True
+[2022-03-28 11:34:43Z INFO CredentialManager] GetCredentialProvider
+[2022-03-28 11:34:43Z INFO CredentialManager] Creating type OAuth
+[2022-03-28 11:34:43Z INFO CredentialManager] Creating credential type: OAuth
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\bin'
+[2022-03-28 11:34:43Z INFO HostContext] Well known directory 'Root': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner'
+[2022-03-28 11:34:43Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_rsaparams'
+[2022-03-28 11:34:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_rsaparams
+[2022-03-28 11:34:43Z INFO MessageListener] Attempt to create session.
+[2022-03-28 11:34:43Z INFO MessageListener] Connecting to the Runner Server...
+[2022-03-28 11:34:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-03-28 11:34:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 11:34:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-28 11:34:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 11:34:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-03-28 11:34:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-03-28 11:34:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 11:34:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 11:34:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-03-28 11:34:44Z INFO MessageListener] VssConnection created
+[2022-03-28 11:34:44Z INFO Terminal] WRITE LINE: 
+[2022-03-28 11:34:44Z INFO Terminal] WRITE LINE: 
+[2022-03-28 11:34:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: a7e49af3-dde9-47ba-ba0d-1385e3efccd0
+ActivityId: 7f4c7ee2-8569-42a7-bf5d-e9b93b947357
+X-TFS-Session: 4358d21b-ab9c-4093-8e63-3057722df003
+X-VSS-E2EID: 49defad7-9f1b-4d44-8454-24dc3aa2b893
+X-VSS-SenderDeploymentId: 2c974d96-2c30-cef5-eff2-3e0511a903a5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 03FC7ACE6493442CA6082C48B83AF3F3 Ref B: IST30EDGE0421 Ref C: 2022-03-28T11:34:49Z
+Date: Mon, 28 Mar 2022 11:34:48 GMT
+
+[2022-03-28 11:34:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_rsaparams
+[2022-03-28 11:34:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Levan Sakvarelidze\Desktop\client\actions-runner\.credentials_rsaparams
+[2022-03-28 11:34:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-03-28 11:34:45Z INFO MessageListener] Session created.
+[2022-03-28 11:34:45Z INFO Terminal] WRITE LINE: Current runner version: '2.288.1'
+[2022-03-28 11:34:45Z INFO Terminal] WRITE LINE: 2022-03-28 11:34:45Z: Listening for Jobs
+[2022-03-28 11:34:45Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-03-28 11:35:40Z INFO Terminal] WRITE LINE: Exiting...
+[2022-03-28 11:35:40Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-03-28 11:35:40Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-03-28 11:35:40Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2022-03-28 11:35:40Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/nSXgpht6ydAqeLALLo8lrFLb9QWWyma13byqnZFe8o9ksYjFIA/_apis/distributedtask/pools/1/messages?sessionId=6bd1216d-bc24-4792-aee1-76cdb87649f9 has been cancelled.
+[2022-03-28 11:35:40Z INFO MessageListener] Get next message has been cancelled.
+[2022-03-28 11:35:40Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-03-28 11:35:41Z INFO Listener] Runner execution been cancelled.

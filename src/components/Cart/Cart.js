@@ -1,15 +1,12 @@
 import react, { useState, useEffect } from "react";
 import styles from "./Cart.module.css";
 import CartSidebar from "./CartSidebar";
-import Modal from "../UI/Modal";
 
 const Cart = (props) => {
   let dum = JSON.parse(localStorage.getItem("cartData"));
 
   const [showCart, setShowCart] = useState(false);
-  const [showModal, setShowModal] = useState(false);
   const [cartCount, setCartCount] = useState(0);
-  const [payLink, setPayLink] = useState(null);
 
   const openCart = () => setShowCart(true);
   const closeCart = () => setShowCart(false);
@@ -25,7 +22,6 @@ const Cart = (props) => {
   }, [cartCount]);
 
   useEffect(() => {
-    console.log(cartCount + " Under total");
     const localStorageSetHandler = function (e) {
       let total = 1;
       let countTotal = JSON.parse(localStorage.getItem("cartData"));
@@ -35,7 +31,6 @@ const Cart = (props) => {
         });
       }
       setCartCount(total);
-      console.log(cartCount + " Below set");
     };
 
     document.addEventListener("itemInserted", localStorageSetHandler, false);
@@ -43,21 +38,12 @@ const Cart = (props) => {
 
   // Chekout Setting defined below
 
-  const closeModal = () => {
-    setShowModal(false);
-  };
-
   const payFunc = (link) => {
-    setShowCart(false);
-    setShowModal(true);
-    setPayLink(link);
+    window.location.href = link
   };
 
   return (
     <>
-      {showModal && (
-        <Modal link={payLink} toClose={closeModal} link={payLink} />
-      )}
       <div className={styles.cartbar} onClick={openCart} id="cart">
         <svg
           xmlns="http://www.w3.org/2000/svg"
