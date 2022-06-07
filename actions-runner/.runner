@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 21,
-  "agentName": "LEVAN",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/nSXgpht6ydAqeLALLo8lrFLb9QWWyma13byqnZFe8o9ksYjFIA",
-  "gitHubUrl": "https://github.com/LSakvarelidze/EcomFront",
-  "workFolder": "_work"
-}
